@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "build": "npm install --legacy-peer-deps && yarn install --legacy-peer-deps --prefix frontend && yarn build --prefix frontend"
+    "build": "npm install --legacy-peer-deps && cd frontend && yarn install --legacy-peer-deps && yarn build"
   },
   "author": "cZileen Patel",
   "license": "ISC",
