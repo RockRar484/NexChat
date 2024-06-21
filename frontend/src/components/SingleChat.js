@@ -100,6 +100,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
           isClosable: true,
           position: "bottom",
         });
+        console.log(error)
       }
     }
   };
